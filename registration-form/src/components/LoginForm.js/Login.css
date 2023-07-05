@@ -1,0 +1,28 @@
+.form {
+  color: azure;
+  height: 50%;
+  width: 50%;
+}
+
+.login-form {
+  width: 60vh;
+  height: 50vh;
+  background-color: #ffffff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.logo {
+  width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.LoginHeader {
+  color: rgb(26, 53, 92);
+  margin-top: 20px;
+}
+
+.Textfield {
+  margin-top: 40px;
+}
