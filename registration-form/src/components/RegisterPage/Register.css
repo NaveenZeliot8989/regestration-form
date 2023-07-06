@@ -4,7 +4,7 @@
   width: 50%;
 }
 
-.login-form {
+.register-form {
   width: 60vh;
   height: 100%;
   background-color: #ffffff;
@@ -18,11 +18,19 @@
   margin-bottom: 20px;
 }
 
-.LoginHeader {
+.registerHeader {
   color: rgb(26, 53, 92);
   margin-top: 20px;
 }
 
 .Textfield {
   margin-top: 40px;
+}
+
+.appbar {
+  margin-bottom: 20px;
+}
+
+.content {
+  padding: 20px;
 }

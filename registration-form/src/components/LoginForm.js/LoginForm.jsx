@@ -11,7 +11,7 @@ const LoginForm = () => {
   };
 
   return (
-    <form className="login-form" onSubmit={handleSubmit}>
+    <form className="login-form">
       <Grid container direction="column" spacing={2}>
         <Grid item>
           <img src="/logo.png" alt="Logo" className="logo" />
@@ -40,6 +40,7 @@ const LoginForm = () => {
             type="submit"
             variant="contained"
             color="primary"
+            onSubmit={handleSubmit}
             style={{ width: "10vh", marginTop: "30px" }}
           >
             Submit
